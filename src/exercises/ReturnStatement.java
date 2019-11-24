@@ -13,7 +13,7 @@ public class ReturnStatement
 
       int sum=a+b;
       System.out.println(sum);
-      if(0<8)
+      if(sum <8)
 
       System.out.println("Greater");
       else
