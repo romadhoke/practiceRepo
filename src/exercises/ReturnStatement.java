@@ -4,24 +4,24 @@ public class ReturnStatement
 {
     public static void main(String[]args)
     {
-       add(2,5);
-       add(4,5);
-       area(4,6);
-       area(8,9);
+     int sum=sum(2,2);
+
     }
 
-    public static void add(int a,int b)
+    public  static int sum(int a,int b)
     {
+
       int sum=a+b;
       System.out.println(sum);
-      return ;
+      if(0<8)
+
+      System.out.println("Greater");
+      else
+       System.out.println("smaller");
+      return sum;
     }
 
-    public static void area(int l,int b)
-    {
-       int multiply=l*b;
-       System.out.println(multiply);
-       return;
+
     }
-}
+
 
